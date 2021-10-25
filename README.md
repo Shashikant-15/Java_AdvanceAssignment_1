@@ -11,11 +11,8 @@ git clone https://github.com/Shashikant-15/Java_AdvanceAssignment_1.git
 
 ## Execute the code
 
-### Change the working directory to the cloned directory
-```bash
-cd ./Java_AdvanceAssignment_1
-```
-#### Follow the following path to execute the JAVA program
+
+### Follow the following path to Run the JAVA program
 
 ```bash
 cd ./Java_AdvanceAssignment_1
