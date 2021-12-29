@@ -1,11 +1,12 @@
 package Adv_9.p;
 
 
-        import Adv_9.p1.TwoDim;
-        import Adv_9.p2.ThreeDim;
+import Adv_9.p1.TwoDim;
+import Adv_9.p2.ThreeDim;
 
-
+// as task mentioned Main class created
 class Main {
+    // main mthod called
     public static void main(String[] args) {
         TwoDim ref;
         ref = new TwoDim(3, 4);

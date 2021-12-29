@@ -5,9 +5,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-
+// public class created as name Histogram
 public class Histogram {
 
+        // main method called
         public static void main(String[] args) throws IOException {
             File file = new File("src/Adv_6/ MidtermScores.txt");
             BufferedReader br = new BufferedReader(new FileReader(file));

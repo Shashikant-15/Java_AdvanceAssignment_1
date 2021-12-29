@@ -1,11 +1,6 @@
 package Adv_10;
 
-public class code_correction1 {
-
-
-
-
-
+public class Code_Correction1 {
 
     static class A {
         private static boolean s;

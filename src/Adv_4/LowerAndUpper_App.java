@@ -1,18 +1,17 @@
 package Adv_4;
 
-
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.DecimalFormat;
 import java.util.Scanner;
-
 import static java.nio.file.StandardOpenOption.*;
+
+// public class created as name LowerAndUpper_App
 public class LowerAndUpper_App {
 
-
-
+    // main method called
     public static void main(String[]args){
         Scanner input=new Scanner(System.in);
         int stdID=0, cred_Hrs=0, record_Len=0;

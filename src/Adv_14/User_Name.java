@@ -5,9 +5,10 @@ import javax.lang.model.element.Name;
 import java.util.Scanner;
 import java.util.Vector;
 
+// created a public class User_Name
 public class User_Name {
 
-   // public class NameApplication {
+        // main method
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             Vector<Name> vector= new Vector<>();

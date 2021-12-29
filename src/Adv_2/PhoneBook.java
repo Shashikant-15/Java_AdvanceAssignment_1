@@ -22,9 +22,10 @@ import java.util.TreeMap;
  * a real phone book application.
  */
 
+// public class created as name PhoneBook
 public class PhoneBook {
 
-
+    // main method called
     public static void main(String[] args) {
 
         String name, number;  // Name and number of an entry in the directory

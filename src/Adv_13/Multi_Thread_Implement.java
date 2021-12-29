@@ -1,13 +1,12 @@
 package Adv_13;
 
 
-
 import java.util.Random;
 import java.util.Scanner;
 
 public class Multi_Thread_Implement {
 
-
+// main method called
     public static void main(String[] args) {
         RandomNumber th=new RandomNumber();
         th.start();

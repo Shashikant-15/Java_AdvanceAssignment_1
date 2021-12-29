@@ -3,8 +3,9 @@ package Adv_12;
 
  import java.io.*;
  import java.util.Scanner;
-
+// A public class create as  Employee
 public class Employee {
+    // variable declared as task required
     int employeeID,employeeAge;
     String employeeName;
     Employee(int empID, String empName,int empAge){

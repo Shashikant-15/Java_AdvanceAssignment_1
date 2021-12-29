@@ -1,9 +1,7 @@
 package Adv_9.p2;
 
 
-        import Adv_9.p1.TwoDim;
-       
-
+import Adv_9.p1.TwoDim;
 
     public class ThreeDim extends TwoDim {
         private int z;

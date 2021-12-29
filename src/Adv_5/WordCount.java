@@ -5,9 +5,10 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+// public class created as name WordCount
 public class WordCount {
 
-
+    // main method called
     public static void main(String[] args)
     {
         BufferedReader reader = null;
@@ -59,10 +60,6 @@ public class WordCount {
             }
 
             //Printing charCount, wordCount and lineCount
-
-
-
-
 
             System.out.println("No. of Lines     : "+ Line_Count);
             System.out.println("No. of Words     : "+ Wrd_Count);

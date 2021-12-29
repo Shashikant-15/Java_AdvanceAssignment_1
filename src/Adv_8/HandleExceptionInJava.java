@@ -1,10 +1,9 @@
 package Adv_8;
 
-public class handleException {
+public class HandleExceptionInJava {
 
-
+    // main method called
     public static void main(String[] args) {
-
 
         //try block
         try {

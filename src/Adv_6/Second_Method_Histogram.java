@@ -6,7 +6,7 @@ import java.io.FileReader;
 
 public class Second_Method_Histogram {
 
-
+    // main method called
     public static void main(String[] args)
     {
         int[] histogram = new int[10];
@@ -29,7 +29,7 @@ public class Second_Method_Histogram {
                     System.out.print("*");
                 }
             }
-        } catch (Exception e) {
+        } catch (Exception e) { // throw exception if above not satisfied
             e.printStackTrace();
         }
     }

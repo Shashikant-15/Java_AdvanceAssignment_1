@@ -1,7 +1,6 @@
 package Adv_9.p1;
 
-
-
+// as task mentioned TwoDim class created
 public class TwoDim {
     private int x;
     private int y;

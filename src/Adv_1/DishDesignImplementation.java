@@ -2,17 +2,15 @@ package Adv_1;
 
 import java.util.ArrayList;
 
-
-public class dish_design {
-
+// public class created as name DishDesignImplementation
+public class DishDesignImplementation {
 
     // member variables
-
     public int dishId;
     public String dName;
     public double creationTime;                                       // taken preparation time of dish in minutes
 
-    public dish_design(int dishId, String dName, double creationTime) {
+    public DishDesignImplementation(int dishId, String dName, double creationTime) {
 
 
 
@@ -35,24 +33,22 @@ public class dish_design {
                 + ", dishPreparation_Time =" + creationTime
                 + "]";
     }
-
-
-
+    // main class called
     public static void main(String[] args) {
 
         // create ArrayList object to store dish records
-        ArrayList<dish_design> dish_Records = new ArrayList<dish_design>();
+        ArrayList<DishDesignImplementation> dish_Records = new ArrayList<DishDesignImplementation>();
 
         // add dish records to AL object
-        dish_Records.add(new dish_design(141, "korma", 15));
-        dish_Records.add(new dish_design(152, "rajma", 20.50 ));
-        dish_Records.add(new dish_design(103, "Crisp-papadum", 50));
-        dish_Records.add(new dish_design(104, "Palak-paneer", 25));
-        dish_Records.add(new dish_design(105, "Aloo gobi", 45.15 ));
+        dish_Records.add(new DishDesignImplementation(141, "korma", 15));
+        dish_Records.add(new DishDesignImplementation(152, "rajma", 20.50 ));
+        dish_Records.add(new DishDesignImplementation(103, "Crisp-papadum", 50));
+        dish_Records.add(new DishDesignImplementation(104, "Palak-paneer", 25));
+        dish_Records.add(new DishDesignImplementation(105, "Aloo gobi", 45.15 ));
 
 
         // retrieving employee records using enhanced forEach loop
-        for (dish_design dish : dish_Records) {
+        for (DishDesignImplementation dish : dish_Records) {
             System.out.println(dish);
         }
     }
