@@ -2,30 +2,39 @@ package Adv_1;
 
 import java.util.ArrayList;
 
-// public class created as name DishDesignImplementation
+/**
+ * public class created DishDesignImplementation to use different type of Dishes designing
+ */
 public class DishDesignImplementation {
 
-    // member variables
+     /**
+     * public variable declared as dishId,dName and creationTime for a dish
+     */
     public int dishId;
     public String dName;
-    public double creationTime;                                       // taken preparation time of dish in minutes
-
+    public double creationTime;   
+   
+    /**
+     * Creates a DishDesignImplementation with the given below parameters.
+     * @param dishId this associated with  new dish ID
+     * @param dName this associated with  new dish name
+     * @param creationTime this associated with  new dish creation time in minutes
+     */
     public DishDesignImplementation(int dishId, String dName, double creationTime) {
 
-
-
         // 3-arguments parameterized constructor
-
-
+        
         super();
         this.dishId = dishId;
         this.dName = dName;
         this.creationTime = creationTime;
 
     }
-
-    // override toString() method
-
+    
+     /**
+     * override toString() method
+     * @return this associated to return new Dish with their id, name and preparation time
+     */
     @Override
     public String toString() {
         return "dish_prepared[dishId=" + dishId
