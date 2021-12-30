@@ -3,11 +3,25 @@ package Adv_12;
 
  import java.io.*;
  import java.util.Scanner;
-// A public class create as  Employee
+
+    /**
+    * A public class create as  Employee 
+    */
 public class Employee {
-    // variable declared as task required
+    /**
+    * variable declared as task required for a employee
+    */
     int employeeID,employeeAge;
+   /**
+    * declared as task to generate  for a new employeeName
+    */
     String employeeName;
+    /**
+     * Creates a Employee with the given below parameters.
+     * @param empID associated with unque employee ID generation
+     * @param empName associated with  new employee name generation
+     * @param empAge associated with unque employee age generation
+     */
     Employee(int empID, String empName,int empAge){
         this.employeeID = empID;
         this.employeeName = empName;
